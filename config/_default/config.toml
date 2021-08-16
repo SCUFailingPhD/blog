@@ -33,6 +33,6 @@ pygmentsUseClasses = true
   home = ["HTML", "RSS", "JSON"]
 
 [taxonomies]
-  category = "类别"
-  series = "系列"
-  tag = "标签"
+  category = "categories"
+  series = "series"
+  tag = "tag"
