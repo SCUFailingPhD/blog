@@ -1,6 +1,6 @@
 [[main]]
   name = "Dropdown"
-  identifier = "下拉菜单"
+  identifier = "dropdown"
   pre = '<i class="fas fa-fw fa-chevron-circle-down"></i>'
 [[main]]
   id = "github"
