@@ -9,4 +9,4 @@
   lineNumbersInTable = false
   noClasses = false
   # style = "monokai" # This parameter affects nothing, see https://github.com/razonyang/hugo-theme-bootstrap#syntax-highlighting.
-  tabWidth = 2
+  tabWidth = 4

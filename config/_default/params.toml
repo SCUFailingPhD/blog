@@ -7,7 +7,7 @@ keywords = "科研, SCU, PhD"
 # images = ["site-feature-image.jpg"]
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".
-brand = "BOOTSTRAP"
+brand = "SCU失败博士交流"
 # menusPosition = "left" # Menus position: right(default), left or center.
 
 palette = "blue" # Default palette. Optional.
