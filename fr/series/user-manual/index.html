@@ -2,7 +2,7 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>User Manual - Séries - Hugo Bootstrap</title><link rel=apple-touch-icon href=/images/favicons/apple-touch-icon.png sizes=180x180>
+<title>User Manual - Séries - SCU失败博士交流</title><link rel=apple-touch-icon href=/images/favicons/apple-touch-icon.png sizes=180x180>
 <link rel=icon href=/images/favicons/favicon-32x32.png sizes=32x32 type=image/png>
 <link rel=icon href=/images/favicons/favicon-16x16.png sizes=16x16 type=image/png>
 <link rel=manifest href=/images/favicons/manifest.json>
@@ -17,7 +17,7 @@
 <meta name=twitter:title content="User Manual">
 <meta name=twitter:description content="Un thème de blog extrêmement rapide, réactif et riche en fonctionnalités pour Hugo">
 <meta name=twitter:site content="@yourtwitterusername">
-<link rel=alternate type=application/rss+xml href=/fr/series/user-manual/index.xml title="Hugo Bootstrap"><meta data-name=palette content="blue"><link rel=stylesheet href=/css/bundle.min.4a5890fb45361897072de8c93e075b7d2384a3635e3bfc9396427ee019bcc13c.css integrity="sha256-SliQ+0U2GJcHLejJPgdbfSOEo2NeO/yTlkJ+4Bm8wTw=" crossorigin=anonymous><script src=/js/bundle.min.da83c623833462a27298c41af88a65376c0a7a9a2de52d677381d2a15957c51a.js integrity="sha256-2oPGI4M0YqJymMQa+IplN2wKepot5S1nc4HSoVlXxRo=" crossorigin=anonymous></script>
+<link rel=alternate type=application/rss+xml href=/fr/series/user-manual/index.xml title=SCU失败博士交流><meta data-name=palette content="blue"><link rel=stylesheet href=/css/bundle.min.4a5890fb45361897072de8c93e075b7d2384a3635e3bfc9396427ee019bcc13c.css integrity="sha256-SliQ+0U2GJcHLejJPgdbfSOEo2NeO/yTlkJ+4Bm8wTw=" crossorigin=anonymous><script src=/js/bundle.min.da83c623833462a27298c41af88a65376c0a7a9a2de52d677381d2a15957c51a.js integrity="sha256-2oPGI4M0YqJymMQa+IplN2wKepot5S1nc4HSoVlXxRo=" crossorigin=anonymous></script>
 </head><body><header><nav class="navbar navbar-expand-xl fixed-top">
 <div class=container>
 <a class=navbar-brand href=/fr/>
@@ -32,20 +32,44 @@
 <input class="form-control rounded-pill" id=searchQuery name=q type=search aria-label=Search>
 </div>
 </form></ul><ul class="navbar-nav me-1 mb-2 mb-lg-0 me-1 ms-auto"><li class=nav-item>
-<a class=nav-link href=/fr/archives/>
+<a class=nav-link href=/fr/en/archives/>
 <i class="fas fa-fw fa-file-archive"></i>Archives
 </a>
 </li><li class=nav-item>
-<a class=nav-link href=/fr/categories/>
+<a class=nav-link href=/fr/zh-tw/archives/>
+<i class="fas fa-fw fa-file-archive"></i>歸檔
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/fr/en/categories/>
+<i class="fas fa-fw fa-folder"></i>Categories
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/fr/fr/categories/>
 <i class="fas fa-fw fa-folder"></i>Catégories
 </a>
 </li><li class=nav-item>
-<a class=nav-link href=/fr/tags/>
+<a class=nav-link href=/fr/zh-tw/categories/>
+<i class="fas fa-fw fa-folder"></i>分類
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/fr/en/tags/>
 <i class="fas fa-fw fa-tags"></i>Tags
 </a>
 </li><li class=nav-item>
-<a class=nav-link href=/fr/series/>
+<a class=nav-link href=/fr/zh-tw/tags/>
+<i class="fas fa-fw fa-tags"></i>標籤
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/fr/en/series/>
+<i class="fas fa-fw fa-columns"></i>Series
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/fr/fr/series/>
 <i class="fas fa-fw fa-columns"></i>Séries
+</a>
+</li><li class=nav-item>
+<a class=nav-link href=/fr/zh-tw/series/>
+<i class="fas fa-fw fa-columns"></i>專欄
 </a>
 </li><li class="nav-item dropdown">
 <a class=nav-link id=navbarDropdown-dropdown role=button data-bs-toggle=dropdown aria-expanded=false>
@@ -58,9 +82,9 @@
 </li></ul>
 </li><li class="nav-item dropdown">
 <a class=nav-link href=# id=languageDropdown role=button data-bs-toggle=dropdown aria-expanded=false>
-<i class="fas fa-fw fa-language"></i> Français
+<i class="fas fa-fw fa-language"></i>
 </a>
-<ul class=dropdown-menu aria-labelledby=languageDropdown><li><a class=dropdown-item href=/en/>English</a></li><li><a class=dropdown-item href=/zh-tw/>繁體中文</a></li><li><a class=dropdown-item href=/zh-cn/>简体中文</a></li></ul>
+<ul class=dropdown-menu aria-labelledby=languageDropdown><li><a class=dropdown-item href=/zh-cn/>简体中文</a></li><li><a class=dropdown-item href=/zh-tw/></a></li></ul>
 </li><li class=nav-item>
 <a class=nav-link data-bs-toggle=offcanvas href=#offcanvasSettings role=button aria-controls=offcanvasSettings>
 <i class="fas fa-fw fa-sliders-h"></i> Réglages
@@ -130,16 +154,16 @@
 <div class="row content">
 <div class=col-lg-8>
 <div class=container><nav class=row aria-label=breadcrumb>
-<ol class="breadcrumb surface"><li class=breadcrumb-item><a href=/fr/>Accueil</a></li><li class=breadcrumb-item><a href=/fr/series/>Séries</a></li><li class="breadcrumb-item active">User Manual</li></ol>
+<ol class="breadcrumb surface"><li class=breadcrumb-item><a href=/fr/>Accueil</a></li><li class=breadcrumb-item><a href=/fr/series/>Series</a></li><li class="breadcrumb-item active">User Manual</li></ol>
 </nav><div class="posts mb-4"><article class="post row surface"><div class="post-thumbnail col-md-3 d-flex align-items-center justify-content-center">
 <img class=img-fluid src=/images/markdown.png loading=lazy>
 </div><div class="post-body col-md-9">
-<h2 class="post-title mb-4"><a href=/fr/posts/markdown-syntax/>Markdown Syntax Guide
+<h2 class="post-title mb-4"><a href=/fr/fr/posts/markdown-syntax/>Markdown Syntax Guide
 </a></h2><div class="post-meta mb-3"><span class="post-date me-2">
 <i class="fas fa-fw fa-calendar-alt"></i>09-11-2020
 </span><span class="post-reading-time me-2">
 <i class="fas fa-fw fa-coffee"></i>2 min de lecture
-</span><a href=/fr/series/user-manual/ class=post-taxonomy>#User Manual</a><a href=/fr/tags/markdown/ class=post-taxonomy>#Markdown</a><a href=/fr/tags/css/ class=post-taxonomy>#CSS</a><a href=/fr/tags/html/ class=post-taxonomy>#HTML</a></div>
+</span><a href=/fr/series/user-manual/ class=post-taxonomy>#User Manual</a></div>
 <div class="post-summary mb-3">
 <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
 </div>
@@ -148,34 +172,41 @@
 </div>
 </div><aside class="col-lg-4 sidebar d-flex">
 <div class=container><section class="profile surface row text-center">
-<div class="col-12 d-flex align-items-center justify-content-center"><img class="profile-avatar rounded-circle" src=/images/profile.webp alt="Razon Yang" loading=lazy></div>
-<div class="col-12 profile-meta"><div class=profile-name>Razon Yang</div><div class=profile-bio>Gopher, PHPer, Full Stack Engineer.</div><div class=profile-company><i class="fas fa-fw fa-building"></i>Company</div><div class=profile-location><i class="fas fa-fw fa-map-marker-alt"></i>Earth</div></div>
+<div class="col-12 d-flex align-items-center justify-content-center"><img class="profile-avatar rounded-circle" src=/images/profile.webp alt="SCU PhDs" loading=lazy></div>
+<div class="col-12 profile-meta"><div class=profile-name>SCU PhDs</div><div class=profile-bio>别问，就是一群失败科研人员交流网站</div><div class=profile-company><i class="fas fa-fw fa-building"></i>无业游民</div><div class=profile-location><i class="fas fa-fw fa-map-marker-alt"></i>Earth</div></div>
 </section>
 <section class="featured-posts row surface">
 <h4>Articles à la Une</h4>
-<ul><li><a href=/fr/posts/markdown-syntax/>Markdown Syntax Guide
+<ul><li><a href=/fr/en/posts/markdown-syntax/>Markdown Syntax Guide
+</a></li><li><a href=/fr/en/posts/shortcodes/media/>Media Shortcodes
+</a></li><li><a href=/fr/en/posts/shortcodes/online-ide/>Online IDE Shortcodes
+</a></li><li><a href=/fr/en/posts/rich-content/>Rich Content
 </a></li></ul>
 </section><section class="recent-posts row surface">
 <h4>Articles Récents</h4>
-<ul><li><a href=/fr/posts/markdown-syntax/>Markdown Syntax Guide
+<ul><li><a href=/fr/en/posts/aligning-images/>Aligning Images
+</a></li><li><a href=/fr/en/posts/markdown-syntax/>Markdown Syntax Guide
+</a></li><li><a href=/fr/en/posts/shortcodes/alert/>Alert Shortcode
+</a></li><li><a href=/fr/en/posts/shortcodes/media/>Media Shortcodes
+</a></li><li><a href=/fr/en/posts/shortcodes/online-ide/>Online IDE Shortcodes
 </a></li></ul>
+</section><section class="taxonomy-categories row surface">
+<h4>
+<a href=/fr/categories>Catégories</a>
+</h4>
+<div><a href=/fr/categories/shortcode/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title=Shortcode>
+Shortcode <span class="badge rounded-pill">3</span>
+</a><a href=/fr/categories/markdown/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title=Markdown>
+Markdown <span class="badge rounded-pill">1</span>
+</a></div>
 </section><section class="taxonomy-series row surface">
 <h4>
 <a href=/fr/series>Séries</a>
 </h4>
-<div><a href=/fr/series/user-manual/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="User Manual">
+<div><a href=/fr/series/manual/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title=Manual>
+Manual <span class="badge rounded-pill">6</span>
+</a><a href=/fr/series/user-manual/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title="User Manual">
 User Manual <span class="badge rounded-pill">1</span>
-</a></div>
-</section><section class="taxonomy-tags row surface">
-<h4>
-<a href=/fr/tags>Tags</a>
-</h4>
-<div><a href=/fr/tags/css/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title=CSS>
-CSS <span class="badge rounded-pill">1</span>
-</a><a href=/fr/tags/html/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title=HTML>
-HTML <span class="badge rounded-pill">1</span>
-</a><a href=/fr/tags/markdown/ class="post-taxonomy rounded btn btn-sm me-2 mb-2" title=Markdown>
-Markdown <span class="badge rounded-pill">1</span>
 </a></div>
 </section></div>
 </aside>
@@ -282,7 +313,7 @@ Markdown <span class="badge rounded-pill">1</span>
 </a>
 </li></nav>
 <div class="copyright mb-2">
-Copyright © 2016-2021 Razon Yang. All Rights Reserved.
+Copyright © 2021-2021 IzaiahSun. All Rights Reserved.
 </div>
 <div class="powered-by mb-2">
 Powered by <a href=https://gohugo.io target=_blank>Hugo</a> and the <a href=https://github.com/razonyang/hugo-theme-bootstrap target=_blank>Bootstrap</a> theme.
