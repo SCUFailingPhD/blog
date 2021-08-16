@@ -1,7 +1,7 @@
 +++
 author = "站点"
 title = "示例文章"
-date = "2021-8-16"
+date = "2021-08-16"
 description = "如果不知道如何写文章，可以参考这个"
 featured = true
 categories = [
