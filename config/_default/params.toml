@@ -2,8 +2,8 @@
 
 # titleSeparator = "|" # Title separator. Default to "-".
 
-description = "An extreme fast, responsive and feature-rich blog theme for Hugo"
-keywords = "Hugo, Bootstrap, Blog Theme"
+description = "一个科研信息交流/分享平台"
+keywords = "科研, SCU, PhD"
 # images = ["site-feature-image.jpg"]
 
 # logo = "images/logo.png" # Logo image. Default to "images/logo.webp".

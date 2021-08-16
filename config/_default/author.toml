@@ -1,7 +1,7 @@
-name = "Razon Yang"
+name = "SCU PhDs"
 # avatar = "images/profile.png" # Avatar image. Default to "images/profile.webp".
-bio = "Gopher, PHPer, Full Stack Engineer."
-company = "Company"
+bio = "别问，就是一群失败科研人员交流网站"
+company = "无业游民"
 location = "Earth"
 # about = "https://domain.tld" # The external about page. The internal about page will be used if not set.
 
