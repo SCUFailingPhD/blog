@@ -3,7 +3,6 @@ title = "这是一个示例招生信息"
 description = ""
 date = 2021-08-18T11:11:35+08:00
 featured = false
-draft = true
 comment = true
 toc = true
 reward = true
